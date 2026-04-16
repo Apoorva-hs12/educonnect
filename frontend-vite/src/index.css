@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #4A7FA7;
+  --color-dark-navy: #0A1931;
+  --color-deep-navy: #1A3D63;
+  --color-light-blue: #B3CFE5;
+  --color-off-white: #F6FAFD;
+  --color-gray-dark: #757575;
+  --color-border-gray: #E0E0E0;
+  --color-success: #2E7D32;
+  --color-warning: #F57C00;
+  --color-error: #C62828;
+  --color-live: #C62828;
+  
+  --font-sans: "Inter", sans-serif;
+}
+
+:root {
+  --background: #F6FAFD;
+  --foreground: #0A1931;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+.auth-container {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.input-field {
+  height: 2.75rem;
+  padding: 0.5rem 0.75rem;
+  background-color: white;
+  border: 1px solid #E0E0E0;
+  border-radius: 0.375rem;
+  width: 100%;
+  transition: all 0.2s;
+}
+
+.input-field:focus {
+  border-color: #4A7FA7;
+  outline: 2px solid rgba(74, 127, 167, 0.2);
+  outline-offset: -2px;
+}
+
+.btn-primary {
+  height: 2.75rem;
+  padding: 0 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #4A7FA7;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #1A3D63;
+}
+
+.btn-secondary {
+  height: 2.75rem;
+  padding: 0 1.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  border: 1px solid #E0E0E0;
+  color: #0A1931;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  transition: background-color 0.2s;
+}
+
+.btn-secondary:hover {
+  background-color: #F6FAFD;
+}
