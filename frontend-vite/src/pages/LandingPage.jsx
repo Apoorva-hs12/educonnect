@@ -10,7 +10,7 @@ export default function LandingPage() {
     initialize();
   }, [initialize]);
 
-  const startLearningLink = user ? "/dashboard" : "/signup";
+  const startLearningLink = "/signup";
 
   return (
     <div className="min-h-screen bg-[#F6FAFD] flex flex-col font-sans">
