@@ -7,21 +7,21 @@ const levels = ["Beginner", "Intermediate", "Advanced"];
 const ratings = ["4+ Stars", "3+ Stars", "All"];
 
 const allCourses = [
-  { id: "1", title: "React Advanced Concepts", instructor: "John Doe", rating: 4.9, students: 2340, price: "49", duration: "8 weeks", tag: "Popular" },
-  { id: "2", title: "Node.js Backend Development", instructor: "Jane Smith", rating: 4.7, students: 1890, price: "59", duration: "10 weeks", tag: "Trending" },
-  { id: "3", title: "UI/UX Design Fundamentals", instructor: "Emma Davis", rating: 4.8, students: 1200, price: "39", duration: "6 weeks" },
+  { id: "1", title: "React Advanced Concepts", instructor: "John Doe", rating: 4.9, students: 2340, price: "2499", duration: "8 weeks", tag: "Popular" },
+  { id: "2", title: "Node.js Backend Development", instructor: "Jane Smith", rating: 4.7, students: 1890, price: "2999", duration: "10 weeks", tag: "Trending" },
+  { id: "3", title: "UI/UX Design Fundamentals", instructor: "Emma Davis", rating: 4.8, students: 1200, price: "1999", duration: "6 weeks" },
   { id: "4", title: "Python for Data Science", instructor: "David Lee", rating: 4.6, students: 3100, price: "Free", duration: "4 weeks", tag: "Free" },
-  { id: "5", title: "Docker & Kubernetes", instructor: "Chris Wilson", rating: 4.5, students: 890, price: "69", duration: "12 weeks", tag: "Advanced" },
-  { id: "6", title: "TypeScript Mastery", instructor: "Lisa Park", rating: 4.9, students: 1560, price: "49", duration: "8 weeks" },
-  { id: "7", title: "AWS Cloud Fundamentals", instructor: "Mike Johnson", rating: 4.4, students: 2100, price: "79", duration: "10 weeks", tag: "New" },
-  { id: "8", title: "Machine Learning Basics", instructor: "Sarah Lee", rating: 4.8, students: 1800, price: "89", duration: "14 weeks" },
-  { id: "9", title: "GraphQL API Development", instructor: "Tom Brown", rating: 4.3, students: 650, price: "45", duration: "6 weeks" },
-  { id: "10", title: "Flutter Mobile Development", instructor: "Anna Chen", rating: 4.7, students: 920, price: "55", duration: "10 weeks", tag: "Popular" },
-  { id: "11", title: "Cybersecurity Essentials", instructor: "James White", rating: 4.6, students: 1100, price: "65", duration: "8 weeks" },
-  { id: "12", title: "Digital Marketing Strategy", instructor: "Maria Garcia", rating: 4.5, students: 2200, price: "35", duration: "4 weeks", tag: "Bestseller" },
-  { id: "13", title: "Generative AI Masterclass", instructor: "Dr. Aris", rating: 4.9, students: 15400, price: "5500", duration: "12 weeks", tag: "New" },
+  { id: "5", title: "Docker & Kubernetes", instructor: "Chris Wilson", rating: 4.5, students: 890, price: "3499", duration: "12 weeks", tag: "Advanced" },
+  { id: "6", title: "TypeScript Mastery", instructor: "Lisa Park", rating: 4.9, students: 1560, price: "Free", duration: "8 weeks" },
+  { id: "7", title: "AWS Cloud Fundamentals", instructor: "Mike Johnson", rating: 4.4, students: 2100, price: "3999", duration: "10 weeks", tag: "New" },
+  { id: "8", title: "Machine Learning Basics", instructor: "Sarah Lee", rating: 4.8, students: 1800, price: "4500", duration: "14 weeks" },
+  { id: "9", title: "GraphQL API Development", instructor: "Tom Brown", rating: 4.3, students: 650, price: "2500", duration: "6 weeks" },
+  { id: "10", title: "Flutter Mobile Development", instructor: "Anna Chen", rating: 4.7, students: 920, price: "2800", duration: "10 weeks", tag: "Popular" },
+  { id: "11", title: "Cybersecurity Essentials", instructor: "James White", rating: 4.6, students: 1100, price: "3200", duration: "8 weeks" },
+  { id: "12", title: "Digital Marketing Strategy", instructor: "Maria Garcia", rating: 4.5, students: 2200, price: "2000", duration: "4 weeks", tag: "Bestseller" },
+  { id: "13", title: "Generative AI Masterclass", instructor: "Dr. Aris", rating: 4.9, students: 15400, price: "8500", duration: "12 weeks", tag: "New" },
   { id: "14", title: "Ethical Hacking & Cyber Defense", instructor: "Kevin Mitnick", rating: 4.8, students: 8200, price: "4500", duration: "10 weeks" },
-  { id: "15", title: "Advanced Cloud Architecture", instructor: "Jeff Bezos", rating: 4.7, students: 12100, price: "6200", duration: "14 weeks", tag: "Enterprise" },
+  { id: "15", title: "Advanced Cloud Architecture", instructor: "Jeff Bezos", rating: 4.7, students: 12100, price: "9200", duration: "14 weeks", tag: "Enterprise" },
 ];
 
 export default function BrowseCoursesPage() {

@@ -25,17 +25,17 @@ const learningPath = [
 ];
 
 const recentClasses = [
-  { id: "1", title: "React Workshop", instructor: "John Doe", rating: 4.9, students: 2340, price: "49", duration: "8 weeks", tag: "Popular" },
-  { id: "2", title: "Data Structures & Algorithms", instructor: "Jane Smith", rating: 4.7, students: 1890, price: "59", duration: "10 weeks", tag: "Trending" },
-  { id: "3", title: "UI/UX Design Fundamentals", instructor: "Emma Davis", rating: 4.8, students: 1200, price: "39", duration: "6 weeks" },
+  { id: "1", title: "React Workshop", instructor: "John Doe", rating: 4.9, students: 2340, price: "2499", duration: "8 weeks", tag: "Popular" },
+  { id: "2", title: "Data Structures & Algorithms", instructor: "Jane Smith", rating: 4.7, students: 1890, price: "2999", duration: "10 weeks", tag: "Trending" },
+  { id: "3", title: "UI/UX Design Fundamentals", instructor: "Emma Davis", rating: 4.8, students: 1200, price: "1999", duration: "6 weeks" },
   { id: "4", title: "Python for Data Science", instructor: "David Lee", rating: 4.6, students: 3100, price: "Free", duration: "4 weeks", tag: "Free" },
 ];
 
 const recommended = [
   { id: "5", title: "Python 101", instructor: "David Lee", rating: 4.6, students: 3100, price: "Free", duration: "4 weeks", tag: "Beginner" },
-  { id: "6", title: "Docker & Kubernetes", instructor: "Emma Davis", rating: 4.8, students: 890, price: "69", duration: "12 weeks", tag: "Advanced" },
-  { id: "7", title: "TypeScript Mastery", instructor: "Chris Wilson", rating: 4.9, students: 1560, price: "49", duration: "8 weeks" },
-  { id: "8", title: "AWS Cloud Fundamentals", instructor: "Lisa Park", rating: 4.5, students: 2100, price: "79", duration: "10 weeks", tag: "New" },
+  { id: "6", title: "Docker & Kubernetes", instructor: "Emma Davis", rating: 4.8, students: 890, price: "3499", duration: "12 weeks", tag: "Advanced" },
+  { id: "7", title: "TypeScript Mastery", instructor: "Chris Wilson", rating: 4.9, students: 1560, price: "Free", duration: "8 weeks", tag: "Free" },
+  { id: "8", title: "AWS Cloud Fundamentals", instructor: "Lisa Park", rating: 4.5, students: 2100, price: "3999", duration: "10 weeks", tag: "New" },
 ];
 
 const upcomingClasses = [
